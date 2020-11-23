@@ -6,7 +6,7 @@ theme = "vipin"
     title = "Vipin Valiyattoor"
     author = "Vipin Valiyattoor"
     description = "Website title"
-    copyright = "aaa"
+    #copyright = "aaa"
 
     [params.theme]
         # Available themes are 'light', 'dark', and 'pinkish'
@@ -42,11 +42,11 @@ theme = "vipin"
             icon = "fa-linkedin-in"
             url = "https://www.linkedin.com/in/vipin-valiyattoor-410b72aa/"
             title = "LinkedIn"		
-        [[params.social.list]]
-            class = "fab"
-            icon = "fa-stack-overflow"
-            url = "#"
-            title = "StackOverflow"
+       # [[params.social.list]]
+          #  class = "fab"
+           # icon = "fa-stack-overflow"
+          #  url = "https://stackoverflow.com/users/14690729/vipin-valiyattoor?tab=profile"
+          #  title = "StackOverflow"
         [[params.social.list]]
             class = "fab"
             icon = "fa-github"
@@ -55,7 +55,7 @@ theme = "vipin"
         [[params.social.list]]
             class = "fab"
             icon = "fa-twitter"
-            url = "#"
+            url = "https://twitter.com/vipinvaliyattoo"
             title = "Twitter"
 		[[params.social.list]]
             class = "ai"
@@ -79,8 +79,8 @@ theme = "vipin"
     
     [[params.showInAccordion]]
         item = "publication"
-    [[params.showInAccordion]]
-        item = "project"
+    #[[params.showInAccordion]]
+       # item = "project"
     [[params.showInAccordion]]
         item = "skill"
     [[params.showInAccordion]]
@@ -97,37 +97,54 @@ theme = "vipin"
         icon = "fas fa-briefcase"
 
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2019 - *Present*"
-            company = "Company Name"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
+            position = "Assistant Professor"
+            dates = "2020 - *Present*"
+            company = "Department of Economic Sciences, Indian Institute of Science Education and Research Bhopal."
+            #details = "#"
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2018 - 2019"
-            link = "#"
-            company = "Company Name"
-
+            position = "Guest Faculty"
+            dates = "2020"
+            #link = "#"
+            company = "Department of Humanities and Social Sciences, Indian Institute of Technology Madras."
+      [[params.experience.list]]
+            position = "Research Consultant"
+            dates = "2019-2020"
+            details = "Worked as Research Consultant of Tamil Nadu Household Panel Survey at MIDS Chennai (A project in partnership with Department of Economics and Statistics, Government of Tamil Nadu and Survey Research Centre, University of Michigan, U.S)." 
+            #link = "#"
+            company = "Madras Institute of Development Studies, Chennai."
+        [[params.experience.list]]
+            position = "Guest Faculty"
+            dates = "2013-14"
+            #link = "#"
+            company = "Government Arts and Science College, Kozhikkode."
     # Education section
     [params.education]
         title = "Education"
         icon = "fas fa-graduation-cap"
 
         [[params.education.list]]
-            degree = "Ph.D. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_link = "#"
+            degree = "Ph.D. in Economics"
+            college = "Indian Institute of Technology Madras"
+            dates = "2014 - 2019"
+            thesis_title = "Performance of Indian Industries: Conventional and Bootstrap-Based Inferences (Supervisor: Dr Anup Kumar Bhandari)."
+            thesis_link = "https://drive.google.com/file/d/1c_5kWFRs4S7L7Bpkn3abIZjE_Ar4ZYtc/view?usp=sharing"
         [[params.education.list]]
-            degree = "M.S. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_link = "#"
+            degree = "B.Ed. in Social Sciences"
+            college = "Farook Training College Kozhikkode, affiliated to  University of Calicut, Kerala."
+            dates = "2013"
+            #thesis_title = "Effect of humans on other humans: a study of human behavior."
+            #thesis_link = "#"
+             [[params.education.list]]
+            degree = "M.A. in Economics"
+            college = "Farook College (Autonomous) Kozhikkode, affiliated to  University of Calicut, Kerala."
+            dates = "2010 - 2012"
+            #thesis_title = "Effect of humans on other humans: a study of human behavior."
+            #thesis_link = "#"
+       
         [[params.education.list]]
-            degree = "B.S. in Subject"
-            college = "University of State-City"
-            dates = "2004 - 2009"
+            degree = "B.A. in Economics"
+            college = "Pocker Sahib Memorial Orphanage (PSMO) College, Tirurangadi, Malappuram, affiliated to University of Calicut, Kerala."
+            dates = "2007 - 2010"
 
     # Publication section
     [params.publication]
@@ -139,27 +156,35 @@ theme = "vipin"
         types = ["Journal Articles", "Proceedings"]
 
         [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            link = "#"
+            title = "Outsourcing and Firm Performance Nexus: An Analysis using the Conventional and Panel Double-bootstrap Procedure."
+            authors = "Vipin Valiyattoor and Anup Kumar Bhandari"
+            date = "2020"
+            journal = "Research in International Business and Finance (2020)."
+            link = "https://doi.org/10.1016/j.ribaf.2020.101279"
             type = "Journal Articles"
 
         [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            link = "#"
+            title = "Conventional Procedure vis-`a-vis Bootstrap-Based Corrections of Efficiency Analyses."
+            authors = "Vipin Valiyattoor and Anup Kumar Bhandari"
+            date = "2020"
+            journal = "Indian Growth and Development Review"
+            link = "https://doi.org/10.1108/IGDR-04-2019-0035"
             type = "Journal Articles"
 		
+[[params.publication.list]]
+            title = "Efficiency and Related Technological aspects of Food Processing Industry in India: A Non-Parametric Analysis."
+            authors = "Anup Kumar Bhandari and Vipin Valiyattoor"
+            date = "2016"
+            journal = "Journal of Developing Areas "
+            link = " https://muse.jhu.edu/article/626804"
+            type = "Journal Articles"
+
         [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            link = "#"
+            title = "Does Export Intensity Affect Firm Performance? Evidence from Basic Metal Industry in India."
+            authors = "Vipin Valiyattoor and Anup Kumar Bhandari"
+            date = "2016"
+            journal = "Conference Proceedings of XI Annual International Conference of Forum for Global Knowledge Sharing"
+            link = "http://fgks.in/images/pdf/conf/2016/Vipin.pdf"
             type = "Proceedings"
 
     # Project section
@@ -191,14 +216,29 @@ theme = "vipin"
         icon = "fas fa-cogs"
 
         [[params.skill.list]]
-            skill = "Skill 1, Skill 2"
-            skillrating = 90
+            skill = "Data Envelopment Analysis"
+            skillrating = 95
         [[params.skill.list]]
-            skill = "Skill 3"
+            skill = "STATA"
+            skillrating = 93
+        [[params.skill.list]]
+            skill = "MATLAB"
+            skillrating = 85
+        [[params.skill.list]]
+            skill = "Eviews"
+            skillrating = 60
+        [[params.skill.list]]
+            skill = "R"
             skillrating = 80
         [[params.skill.list]]
-            skill = "Skill 4"
-            skillrating = 50
+            skill = "DEAP and Frontier"
+            skillrating = 98
+         [[params.skill.list]]
+            skill = "LaTeX and MS Office."
+            skillrating = 97
+
+            
+
 
     # Hobby section
     [params.hobby]
@@ -208,6 +248,6 @@ theme = "vipin"
         [[params.hobby.list]]		
 		    hobby = "Cooking"
         [[params.hobby.list]]		
-		    hobby = "Hiking"
+		    hobby = "Cycling"
         [[params.hobby.list]]		
-		    hobby = "Baking"
+		    hobby = "Meditation/Yoga"

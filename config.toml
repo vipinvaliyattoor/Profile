@@ -3,8 +3,8 @@ languageCode = "en-us"
 theme = "vipin"
 
 [params]
-    title = "Aafu theme"
-    author = "Darshan Baral"
+    title = "Vipin Valiyattoor"
+    author = "Vipin Valiyattoor"
     description = "Website title"
     copyright = "aaa"
 
@@ -28,9 +28,9 @@ theme = "vipin"
 
     # Profile section
     [params.profile]
-        name = "First Last, Abbr."
-		tagline = "Title"
-		location = "City Name, ST"
+        name = "Dr. Vipin Valiyattoor"
+		tagline = "Assistant Professor"
+		location = "Department of Economic Sciences, IISER Bhopal"
         photo = "profile.jpg"
 
     # Section for links to social websites

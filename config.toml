@@ -89,7 +89,7 @@ theme = "vipin"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "**Tagline. Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "**Hi, ** I am a Ph.D. graduate in Economics from the Indian Institute of Technology Madras and presently working as an Assistant Professor at the Department of Economic Sciences, IISER Bhopal. My areas of specializations are Microeconomics, Applied Econometrics, Industrial Economics and Efficiency and Productivity Analysis. My research interests lie in applied economic analysis,  particularly the performance evaluation using efficiency and productivity analysis. I am also interested in studies using primary survey data. ."
 
     # Experience section
     [params.experience]

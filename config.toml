@@ -40,7 +40,7 @@ theme = "vipin"
         [[params.social.list]]
             class = "fab"
             icon = "fa-linkedin-in"
-            url = "#"
+            url = "https://www.linkedin.com/in/vipin-valiyattoor-410b72aa/"
             title = "LinkedIn"		
         [[params.social.list]]
             class = "fab"
@@ -50,7 +50,7 @@ theme = "vipin"
         [[params.social.list]]
             class = "fab"
             icon = "fa-github"
-            url = "#"
+            url = "https://github.com/vipinvaliyattoor"
             title = "GitHub"
         [[params.social.list]]
             class = "fab"
@@ -60,22 +60,23 @@ theme = "vipin"
 		[[params.social.list]]
             class = "ai"
             icon = "ai-google-scholar"
-            url = "#"
+            url = "https://scholar.google.com/citations?user=ZVL-P94AAAAJ&hl=en"
             title = "Google Scholar"
 		[[params.social.list]]
             class = "ai"
             icon = "ai-researchgate"
-            url = "#"
+            url = "https://www.researchgate.net/profile/Vipin_Valiyattoor"
             title = "ResearchGate"
 
     #Specify what is showin in the Accordion
     [[params.showInAccordion]]
         item = "aboutme"
         expand = true   # true for the section that is initially expanded
+        [[params.showInAccordion]]
+        item = "education"
     [[params.showInAccordion]]
         item = "experience"
-    [[params.showInAccordion]]
-        item = "education"
+    
     [[params.showInAccordion]]
         item = "publication"
     [[params.showInAccordion]]

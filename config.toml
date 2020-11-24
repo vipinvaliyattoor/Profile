@@ -1,4 +1,4 @@
-baseURL = "https://eco.iiserb.ac.in/people.php/"
+baseURL = "https://www.example.org/"
 languageCode = "en-us"
 theme = "vipin"
 

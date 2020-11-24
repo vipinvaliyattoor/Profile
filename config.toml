@@ -1,4 +1,4 @@
-baseURL = "https://www.example.org/"
+baseURL = "#"
 languageCode = "en-us"
 theme = "vipin"
 

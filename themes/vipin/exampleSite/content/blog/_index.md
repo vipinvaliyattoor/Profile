@@ -1,4 +1,5 @@
 ---
-title: "My Blog"
+#title: "My Blog"
+title: "CV"
 weight: 100
 ---

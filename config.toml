@@ -57,6 +57,11 @@ theme = "vipin"
             icon = "fa-twitter"
             url = "https://twitter.com/vipinvaliyattoo"
             title = "Twitter"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-facebook"
+            url = "https://twitter.com/vipinvaliyattoo"
+            title = "Twitter"
 		[[params.social.list]]
             class = "ai"
             icon = "ai-google-scholar"

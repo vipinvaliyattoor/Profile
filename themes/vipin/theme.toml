@@ -1,12 +1,12 @@
 name = "vipin"
 license = "MIT"
-licenselink = "https://github.com/darshanbaral/aafu/blob/master/LICENSE"
+licenselink = "https://vipinvaliyattoor.github.io/"
 description = "Portfolio and blog theme with multiple theme colors"
-homepage = "https://github.com/darshanbaral/aafu"
+homepage = "https://vipinvaliyattoor.github.io/"
 tags = ["portfolio", "accordion", "resume", "blog"]
 features = ["responsive", "dark", "clean"]
 min_version = "0.55"
 
 [author]
-  name = "Darshan Baral"
-  homepage = "https://www.darshanbaral.com/"
+  name = "Vipin Valiyattoor"
+  homepage = "https://vipinvaliyattoor.github.io/"

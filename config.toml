@@ -6,13 +6,13 @@ theme = "vipin"
     title = "Vipin Valiyattoor"
     author = "Vipin Valiyattoor"
     description = "Website title"
-    #copyright = "aaa"
+   # copyright = "Vipin"
 
     [params.theme]
         # Available themes are 'light', 'dark', and 'pinkish'
         mainTheme = "light"
         # setting false below will hide 'aafu by darshan' displayed under the profile pic
-        showAttribute = true
+        showAttribute = false
         singlePage = false
 
     [params.favicons]
@@ -89,7 +89,7 @@ theme = "vipin"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "I am a Ph.D. graduate in Economics from the Indian Institute of Technology Madras and presently working as an Assistant Professor at the Department of Economic Sciences, IISER Bhopal. My areas of specialization are Microeconomics, Applied Econometrics, Industrial Economics and Efficiency and Productivity Analysis. My research interests lie in applied economic analysis,  particularly the performance evaluation using efficiency and productivity analysis. I am also interested in studies using primary survey data."
+        description = " I am a Ph.D. graduate in Economics from the Indian Institute of Technology Madras and presently working as an Assistant Professor at the Department of Economic Sciences, IISER Bhopal. My areas of specialization are Microeconomics, Applied Econometrics, Industrial Economics and Efficiency and Productivity Analysis. My research interests lie in applied economic analysis,  particularly the performance evaluation using Data Envlopment Analysis(DEA) andBootstrap DEA approach. I am also interested in studies using primary survey data."
 
     # Experience section
     [params.experience]
